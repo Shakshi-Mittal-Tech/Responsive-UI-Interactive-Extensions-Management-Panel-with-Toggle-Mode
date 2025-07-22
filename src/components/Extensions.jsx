@@ -53,7 +53,7 @@ function Extensions() {
                 {filteredExtensions.map((extension) => (
                     <div
                         key={extension.id}
-                        className="flex flex-col justify-between p-4 text-white border rounded-xl bg-neutral-800 border-neutral-400"
+                        className="flex flex-col justify-between p-4 border dark:text-white text-neutral-900 rounded-xl dark:bg-neutral-800 bg-neutral-0 border-neutral-400"
                     >
                         <div className="flex space-x-4">
                             <img src={extension.logo} alt="extension-logo" className="w-12 h-12" />
